@@ -523,6 +523,7 @@
   (@interface func (export "rdma_list")
     (result $error (expected (error $errno)))
   )
+)
 
   ;;; ;;; rdma_buidler
   ;;; (@interface func (export "rdma_buidler")
