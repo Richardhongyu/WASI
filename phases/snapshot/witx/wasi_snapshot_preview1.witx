@@ -518,4 +518,17 @@
     (param $how $sdflags)
     (result $error (expected (error $errno)))
   )
-)
+
+  ;;; Print a greeting message.
+  (@interface func (export "rdma_list")
+    (result $error (expected (error $errno)))
+  )
+
+  ;;; ;;; rdma_buidler
+  ;;; (@interface func (export "rdma_buidler")
+  ;;;   (result $error (expected (error $errno)))
+  ;;; )
+
+  ;;;   ;;; Print a greeting message.
+  ;;; (@interface func (export "request_remote_mr")
+  ;;;   (result $error (expected (
